@@ -152,7 +152,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_LGUI,           KC_A,    KC_S,    LCTL_T(KC_D), LSFT_T(KC_F), LALT_T(KC_G),   KC_H, LSFT_T(KC_J), LCTL_T(KC_K), KC_L, DE_QUOT, LT(Fun, KC_DEL),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       SS_CIRC,  LT(Button, DE_Z), KC_X,    KC_C,    KC_V,    KC_B,         KC_N,    KC_M,    DE_COMM,    DE_DOT,  DE_SLSH, KC_DLR,
+       SS_CIRC,  LT(Mouse, DE_Z), KC_X,    KC_C,    KC_V,    KC_B,         KC_N,    KC_M,    DE_COMM,    DE_DOT,  DE_SLSH, KC_DLR,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   LT(Sym, KC_SPC), LT(Num, KC_BSPC)
   //                            ╰───────────────────────────╯ ╰──────────────────╯
