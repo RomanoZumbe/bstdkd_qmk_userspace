@@ -167,7 +167,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  KC_A,    KC_S,    LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       KC_ESC,   LT(Button, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_ESC,
+       KC_ESC,   LT(Mouse, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_SPC, KC_BSPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
@@ -184,7 +184,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   LT(Button, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_WH_L, KC_BTN1, KC_WH_D, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                               LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_BTN2, KC_BTN1
+                               KC_BTN2, KC_BTN1, KC_BTN3,   KC_BTN2, KC_BTN1
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
