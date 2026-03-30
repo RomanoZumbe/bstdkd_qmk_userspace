@@ -286,7 +286,7 @@ const key_override_t slsh_comm_labk     = ko_make_basic(MOD_MASK_SHIFT, DE_COMM,
 const key_override_t slsh_dot_rabk      = ko_make_basic(MOD_MASK_SHIFT, DE_DOT,  DE_RABK);
 const key_override_t slsh_quot_dquo     = ko_make_basic(MOD_MASK_SHIFT, DE_QUOT, DE_DQUO);
 
-const key_override_t **key_overrides = (const key_override_t *[]){
+const key_override_t * const key_overrides[] = {
     &slsh_ques_override,
     &slsh_scln_coln,
     &slsh_comm_labk,
