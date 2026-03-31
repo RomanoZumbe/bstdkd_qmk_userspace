@@ -198,7 +198,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        KC_ESC,   LGUI_T(KC_Q), KC_W,    KC_E,    KC_R,    KC_T,         DE_Y,    DE_UDIA, KC_WH_U, DE_ODIA, KC_P,    KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       SS_CIRC,  DE_ADIA, DE_SS,   LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_MS_L, KC_MS_D, KC_MS_U, KC_MS_R, DE_QUOT, KC_DLR,
+       SS_CIRC,  DE_ADIA, DE_SS,   LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_MS_L, KC_MS_D, KC_WH_U, KC_MS_R, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   LT(Button, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_WH_L, KC_BTN1, KC_WH_D, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
