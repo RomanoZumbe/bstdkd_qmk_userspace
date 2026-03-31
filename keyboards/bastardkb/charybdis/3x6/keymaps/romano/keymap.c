@@ -187,7 +187,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   LT(Mouse, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                               LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_SPC, KC_DEL
+                               LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_DEL, KC_SPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
@@ -277,7 +277,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   DE_GRV,  KC_1,    KC_2,    KC_3,    DE_BSLS,      KC_WH_L, DM_PLY1, DM_PLY2, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                               TD(TD_LOCK_LAYER), KC_0, DE_MINS,   KC_SPC, KC_BSPC
+                               TD(TD_LOCK_LAYER), KC_0, DE_MINS,   KC_BSPC, KC_SPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
