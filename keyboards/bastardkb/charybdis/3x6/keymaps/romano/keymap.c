@@ -129,6 +129,24 @@ tap_dance_action_t tap_dance_actions[] = {
     [TD_LOCK_LAYER] = ACTION_TAP_DANCE_FN(lock_layer),
 };
 
+const uint16_t PROGMEM lprn_combo[] = {LSFT_T(KC_F), LCTL_T(KC_D), COMBO_END};
+const uint16_t PROGMEM rprn_combo[] = {LSFT_T(KC_J), LCTL_T(KC_K), COMBO_END};
+
+const uint16_t PROGMEM lcbr_combo[] = {KC_R, KC_E, COMBO_END};
+const uint16_t PROGMEM rcbr_combo[] = {KC_U, KC_I, COMBO_END};
+
+const uint16_t PROGMEM lbrc_combo[] = {KC_V, KC_C, COMBO_END};
+const uint16_t PROGMEM rbrc_combo[] = {KC_M, DE_COMM, COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(lprn_combo, DE_LPRN),
+    COMBO(rprn_combo, DE_RPRN),
+    COMBO(lcbr_combo, DE_LCBR),
+    COMBO(rcbr_combo, DE_RCBR),
+    COMBO(lbrc_combo, DE_LBRC),
+    COMBO(rbrc_combo, DE_RBRC),
+};
+
 // clang-format off
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -150,7 +168,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        KC_ESC,            KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,         DE_Y,    KC_U,    KC_I,    KC_O,        KC_P,    SS_CRYPT,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       KC_LGUI,           LGUI_T(KC_A),    KC_S,    LCTL_T(KC_D), LSFT_T(KC_F), LALT_T(KC_G),   KC_H, LSFT_T(KC_J), LCTL_T(KC_K), KC_L, DE_QUOT, LT(Fun, KC_DEL),
+       KC_LGUI,           LGUI_T(KC_A),    LALT_T(KC_S),    LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_H, LSFT_T(KC_J), LCTL_T(KC_K), KC_L, DE_QUOT, LT(Fun, KC_DEL),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  LT(Mouse, DE_Z), KC_X,    KC_C,    KC_V,    KC_B,         KC_N,    KC_M,    DE_COMM,    DE_DOT,  DE_SLSH, KC_DLR,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
@@ -280,23 +298,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 // clang-format on
 
-const uint16_t PROGMEM lprn_combo[] = {KC_F, KC_D, COMBO_END};
-const uint16_t PROGMEM rprn_combo[] = {KC_J, KC_K, COMBO_END};
-
-const uint16_t PROGMEM lcbr_combo[] = {KC_R, KC_D, COMBO_END};
-const uint16_t PROGMEM rcbr_combo[] = {KC_U, KC_I, COMBO_END};
-
-const uint16_t PROGMEM lbrc_combo[] = {KC_V, KC_C, COMBO_END};
-const uint16_t PROGMEM rbrc_combo[] = {KC_M, DE_LABK, COMBO_END};
-
-combo_t key_combos[] = {
-    COMBO(lprn_combo, DE_LPRN),
-    COMBO(rprn_combo, DE_RPRN),
-    COMBO(lcbr_combo, DE_LCBR),
-    COMBO(rcbr_combo, DE_RCBR),
-    COMBO(lbrc_combo, DE_LBRC),
-    COMBO(rbrc_combo, DE_RBRC),
-};
 
 const key_override_t slsh_ques_override = ko_make_basic(MOD_MASK_SHIFT, DE_SLSH, DE_QUES);
 const key_override_t slsh_scln_coln     = ko_make_basic(MOD_MASK_SHIFT, DE_SCLN, DE_COLN);
