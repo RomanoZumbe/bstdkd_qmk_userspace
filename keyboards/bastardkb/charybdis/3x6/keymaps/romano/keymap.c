@@ -150,7 +150,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        KC_ESC,            KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,         DE_Y,    KC_U,    KC_I,    KC_O,        KC_P,    SS_CRYPT,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       KC_LGUI,           KC_A,    KC_S,    LCTL_T(KC_D), LSFT_T(KC_F), LALT_T(KC_G),   KC_H, LSFT_T(KC_J), LCTL_T(KC_K), KC_L, DE_QUOT, LT(Fun, KC_DEL),
+       KC_LGUI,           LGUI_T(KC_A),    KC_S,    LCTL_T(KC_D), LSFT_T(KC_F), LALT_T(KC_G),   KC_H, LSFT_T(KC_J), LCTL_T(KC_K), KC_L, DE_QUOT, LT(Fun, KC_DEL),
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  LT(Mouse, DE_Z), KC_X,    KC_C,    KC_V,    KC_B,         KC_N,    KC_M,    DE_COMM,    DE_DOT,  DE_SLSH, KC_DLR,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
@@ -169,7 +169,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   LT(Mouse, DE_Z), LALT_T(KC_X), KC_C, KC_V, KC_B,     KC_HOME, KC_PGDN, KC_PGUP, KC_END,  KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                               LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_SPC, KC_BSPC
+                               LT(Media, KC_ESC), LT(Nav, KC_ENT), LT(Mouse, KC_TAB),   KC_SPC, KC_DEL
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
@@ -229,7 +229,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   DE_TILD, DE_EXLM, DE_AT,   DE_HASH, DE_PIPE,      KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
-                               TD(TD_LOCK_LAYER), DE_LPRN, DE_UNDS,   KC_MSTP, KC_MPLY
+                               TD(TD_LOCK_LAYER), DE_RPRN, DE_UNDS,   KC_MSTP, KC_MPLY
   //                            ╰───────────────────────────╯ ╰──────────────────╯
   ),
 
