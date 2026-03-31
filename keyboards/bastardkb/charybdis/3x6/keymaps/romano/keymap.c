@@ -280,6 +280,24 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 // clang-format on
 
+const uint16_t PROGMEM lprn_combo[] = {KC_F, KC_D, COMBO_END};
+const uint16_t PROGMEM rprn_combo[] = {KC_J, KC_K, COMBO_END};
+
+const uint16_t PROGMEM lcbr_combo[] = {KC_R, KC_D, COMBO_END};
+const uint16_t PROGMEM rcbr_combo[] = {KC_U, KC_I, COMBO_END};
+
+const uint16_t PROGMEM lbrc_combo[] = {KC_V, KC_C, COMBO_END};
+const uint16_t PROGMEM rbrc_combo[] = {KC_M, DE_LABK, COMBO_END};
+
+combo_t key_combos[] = {
+    COMBO(lprn_combo, DE_LPRN),
+    COMBO(rprn_combo, DE_RPRN),
+    COMBO(lcbr_combo, DE_LCBR),
+    COMBO(rcbr_combo, DE_RCBR),
+    COMBO(lbrc_combo, DE_LBRC),
+    COMBO(rbrc_combo, DE_RBRC),
+};
+
 const key_override_t slsh_ques_override = ko_make_basic(MOD_MASK_SHIFT, DE_SLSH, DE_QUES);
 const key_override_t slsh_scln_coln     = ko_make_basic(MOD_MASK_SHIFT, DE_SCLN, DE_COLN);
 const key_override_t slsh_comm_labk     = ko_make_basic(MOD_MASK_SHIFT, DE_COMM, DE_LABK);
