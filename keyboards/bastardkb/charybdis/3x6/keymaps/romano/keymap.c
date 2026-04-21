@@ -198,7 +198,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
        KC_ESC,   LGUI_T(KC_Q), KC_W,    KC_E,    KC_R,    KC_T,         DPI_MOD,    DE_UDIA, KC_WH_U, DE_ODIA, KC_P,    KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       DRG_TOG,  DRGSCRL, DE_SS,   KC_BTN2, KC_BTN1, KC_G,   DPI_RMOD, KC_MS_D, KC_WH_U, KC_MS_R, DE_QUOT, KC_DLR,
+       DRG_TOG,  DE_ADIA, DE_SS,   KC_BTN2, KC_BTN1, KC_G,   DPI_RMOD, KC_MS_D, KC_WH_U, KC_MS_R, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        KC_ESC,   DRGSCRL, LALT_T(KC_X), KC_BTN3, KC_V, KC_B,     KC_WH_L, KC_BTN1, KC_WH_D, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
@@ -275,7 +275,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  DE_SCLN, KC_4,    KC_5,    KC_6,    DE_EQL,       DM_RSTP, DM_REC1, DM_REC2, KC_MNXT, KC_ESC,  KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
-       KC_ESC,   DE_GRV,  KC_1,    KC_2,    KC_3,    DE_BSLS,      KC_WH_L, DM_PLY1, DM_PLY2, KC_WH_R, KC_INS,  KC_ESC,
+       KC_ESC,   DE_GRV,  KC_1,    KC_2,    KC_3,    DE_BSLS,      KC_WH_L, KC_WH_D, KC_WH_U, KC_WH_R, KC_INS,  KC_ESC,
   // ╰──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────╯
                                TD(TD_LOCK_LAYER), KC_0, DE_MINS,   KC_BSPC, KC_SPC
   //                            ╰───────────────────────────╯ ╰──────────────────╯
