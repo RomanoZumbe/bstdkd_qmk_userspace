@@ -137,6 +137,7 @@ const uint16_t PROGMEM rcbr_combo[] = {KC_U, KC_I, COMBO_END};
 
 const uint16_t PROGMEM lbrc_combo[] = {KC_V, KC_C, COMBO_END};
 const uint16_t PROGMEM rbrc_combo[] = {KC_M, DE_COMM, COMBO_END};
+const uint16_t PROGMEM oslsft_combo[] = {LT(Sym, KC_BSPC), LT(Num, KC_SPC), COMBO_END};
 
 combo_t key_combos[] = {
     COMBO(lprn_combo, DE_LPRN),
@@ -145,6 +146,7 @@ combo_t key_combos[] = {
     COMBO(rcbr_combo, DE_RCBR),
     COMBO(lbrc_combo, DE_LBRC),
     COMBO(rbrc_combo, DE_RBRC),
+    COMBO(oslsft_combo, OS_LSFT)
 };
 
 // clang-format off
