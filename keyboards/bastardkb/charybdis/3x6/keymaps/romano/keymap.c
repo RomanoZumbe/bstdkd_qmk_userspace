@@ -181,7 +181,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╰──────────────────────────────────────────────────────────────────────╯
   [Nav] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       KC_ESC,   LGUI_T(KC_Q), KC_W,    OS_LCTL,    OS_LSFT,    KC_PSCR,      DE_Y,    DE_UDIA,    KC_I,    DE_ODIA,    KC_P,    KC_ESC,
+       KC_ESC,   LGUI_T(KC_Q), KC_W,    OSM(MOD_LCTL), OSM(MOD_LSFT),    KC_PSCR,      DE_Y,    DE_UDIA,    KC_I,    DE_ODIA,    KC_P,    KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  DE_ADIA,    DE_SS,    LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
