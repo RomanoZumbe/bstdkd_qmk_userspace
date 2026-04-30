@@ -181,7 +181,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╰──────────────────────────────────────────────────────────────────────╯
   [Nav] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       KC_ESC,   LGUI_T(KC_Q), KC_W,    OSM(MOD_LCTL), OSM(MOD_LSFT),    KC_PSCR,      DE_Y,    DE_UDIA,    KC_I,    DE_ODIA,    KC_P,    KC_ESC,
+       KC_ESC,   LGUI_T(KC_Q), KC_W,    KC_E,    KC_R,    KC_PSCR,      DE_Y,    DE_UDIA,    KC_I,    DE_ODIA,    KC_P,    KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        SS_CIRC,  DE_ADIA,    DE_SS,    LCTL_T(KC_D), LSFT_T(KC_F), KC_G,   KC_LEFT, KC_DOWN, KC_UP,   KC_RIGHT, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
@@ -196,7 +196,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   // ╰──────────────────────────────────────────────────────────────────────╯
   [Mouse] = LAYOUT(
   // ╭──────────────────────────────────────────────────────╮ ╭──────────────────────────────────────────────────────╮
-       KC_ESC,   LGUI_T(KC_Q), KC_W,    KC_E,    KC_R,    KC_T,         DPI_MOD,    DE_UDIA, KC_WH_U, DE_ODIA, KC_P,    KC_ESC,
+       KC_ESC,   LGUI_T(KC_Q), KC_W,    OSM(MOD_LCTL), OSM(MOD_LSFT),    KC_T,         DPI_MOD,    DE_UDIA, KC_WH_U, DE_ODIA, KC_P,    KC_ESC,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
        DRG_TOG,  DE_ADIA, DE_SS,   KC_BTN2, KC_BTN1, KC_G,   DPI_RMOD, KC_MS_D, KC_WH_U, KC_MS_R, DE_QUOT, KC_DLR,
   // ├──────────────────────────────────────────────────────┤ ├──────────────────────────────────────────────────────┤
